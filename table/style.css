@@ -1,0 +1,11 @@
+#dataTabe > thead{
+    background-color: #000;
+    color: #fff;
+}
+#dataTabe > thead > tr > td{
+    width: 200px;
+    text-align: right;
+}
+#dataTabe > tbody > tr > td{
+    text-align: right;
+}

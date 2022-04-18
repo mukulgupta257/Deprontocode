@@ -1,0 +1,14 @@
+.comments{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c0c0c0;
+}
+.newblog{
+    width: 30%;
+    height: 30px;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+}
+.newblog:active{
+    transform: scale(1.2);
+}

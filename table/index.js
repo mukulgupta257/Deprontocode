@@ -14,9 +14,7 @@ const Completed={
         const tabledata=await getdata()
         return`
         <div>
-        <p>
         <button id="completed">Show completed</button>
-        </P>
             <table id="dataTabe">
                 <thead>
                     <tr>
@@ -34,8 +32,6 @@ const Completed={
                     <td colspan=2>${data.title}</td>
                     <td>${data.completed}</td>
                 </tr>`:``}
-                    
-                    }
                     `).join("\n")}
                 </tbody>
             </table>
